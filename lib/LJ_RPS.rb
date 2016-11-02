@@ -64,9 +64,12 @@ module LJRPS
   class Computer < Player
   end
 
+  class Human < Player
+  end
 
 
-  game = Game.new 
+
+  game = Game.new
   game.play
 
 end
